@@ -154,6 +154,7 @@ body {
         .header-hero {
           padding-right: 10px;
           padding-left: 10px;
+          padding-top: 50px;
         }
       }
     }
@@ -259,6 +260,8 @@ body {
   }
 
   .content-wrapper {
+    overflow: hidden;
+
     .content {
       .col-wrapper {
         margin-bottom: 120px;
@@ -382,6 +385,8 @@ body {
   }
 
   .contact {
+    overflow: hidden;
+
     .container {
       .bubble-wrapper {
         overflow: hidden;
@@ -676,7 +681,6 @@ body {
       }
 
       .cr {
-        border-top: 1px solid rgba(188, 208, 229, 0.496913);
         margin-top: 30px;
       }
     }
